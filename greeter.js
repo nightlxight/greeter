@@ -8,7 +8,7 @@ function day() {
         "Good day!",
         "Good day ;)" //,
         // add more responses here
-        
+        // last response should not contain a comma
     ];
     let dayResponse = dayResponses[Math.floor(Math.random() * dayResponses.length)];
 }
