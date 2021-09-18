@@ -4,7 +4,10 @@ const config = yaml.load(fs.readFileSync('./configuration.yml'));
 
 
 function day() {
-    let dayResponses = [];
+    let dayResponses = [
+        "Good day!",
+        "Good day ;)"
+    ];
     let dayResponse = dayResponses[Math.floor(Math.random() * dayResponses.length)];
 }
 
