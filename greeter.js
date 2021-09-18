@@ -18,7 +18,7 @@ function nightTime() {
     let nightResponses = [
         "Good night!",
         "Good night ;)" //,
-        
+        // add more responses here
     ];
     let nightResponse = nightResponses[Math.floor(Math.random() * nightResponses.length)];
     console.log(nightResponse);
