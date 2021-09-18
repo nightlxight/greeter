@@ -7,7 +7,7 @@ function day() {
     let dayResponses = [
         "Good day!",
         "Good day ;)" //,
-        
+        // add more responses here
     ];
     let dayResponse = dayResponses[Math.floor(Math.random() * dayResponses.length)];
 }
