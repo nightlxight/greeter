@@ -17,7 +17,7 @@ function dayTime() {
 function nightTime() {
     let nightResponses = [
         "Good night!",
-        
+        ""
     ];
     let nightResponse = nightResponses[Math.floor(Math.random() * nightResponses.length)];
 }
