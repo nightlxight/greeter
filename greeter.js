@@ -15,7 +15,7 @@ function dayTime() {
 }
 
 function nightTime() {
-    
+    let nightResponses = []
 }
 
 if (new Date().getHours() < 18) {
