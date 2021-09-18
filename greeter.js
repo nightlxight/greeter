@@ -11,6 +11,7 @@ function day() {
         // the last response should not contain a comma
     ];
     let dayResponse = dayResponses[Math.floor(Math.random() * dayResponses.length)];
+    console.log(dayResponse);
 }
 
 if (new Date().getHours() < 18) {
