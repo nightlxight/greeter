@@ -19,7 +19,7 @@ function nightTime() {
         "Good night!",
         "Good night ;)" //,
         // add more responses here
-        // last response should not contain a comma
+        // the last response should not contain a comma
     ];
     let nightResponse = nightResponses[Math.floor(Math.random() * nightResponses.length)];
     console.log(nightResponse);
