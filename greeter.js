@@ -3,7 +3,7 @@ const yaml = require('js-yaml');
 const config = yaml.load(fs.readFileSync('./configuration.yml'));
 
 
-function day() {
+function dayTime() {
     let dayResponses = [
         "Good day!",
         "Good day ;)" //,
