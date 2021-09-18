@@ -16,6 +16,7 @@ function dayTime() {
 
 function nightTime() {
     let nightResponses = [];
+    let nightResponse = nightResponses[Math.floor(Math.random() * nightResponses.length)];
 }
 
 if (new Date().getHours() < 18) {
