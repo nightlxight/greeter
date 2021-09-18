@@ -15,7 +15,7 @@ function dayTime() {
 }
 
 if (new Date().getHours() < 18) {
-    console.log("Good day!");
+    dayTime();
 } else {
     console.log("Good night!");
 }
