@@ -20,6 +20,7 @@ function nightTime() {
         "Good night ;)"
     ];
     let nightResponse = nightResponses[Math.floor(Math.random() * nightResponses.length)];
+    console.log(nightResponse)
 }
 
 if (new Date().getHours() < 18) {
