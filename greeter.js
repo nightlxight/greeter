@@ -14,6 +14,8 @@ function dayTime() {
     console.log(dayResponse);
 }
 
+
+
 if (new Date().getHours() < 18) {
     dayTime();
 } else {
