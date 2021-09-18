@@ -28,5 +28,5 @@ function nightTime() {
 if (new Date().getHours() < 18) {
     dayTime();
 } else {
-    nightResponse();
+    nightTime();
 }
